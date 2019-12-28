@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MAILINGLIST=./english-names
+MAILINGLIST=./portuguese-names
 
 for n in `cat $MAILINGLIST` ; do
 	eval `echo $n | awk -F':' '{ print $1 " " $2}' |\
@@ -8,11 +8,11 @@ for n in `cat $MAILINGLIST` ; do
 
 (echo "$NAME:"
  echo ""
- echo "Hello from Oklahoma where I just finished our yearly blog:"
+ echo "Oi de Oklahoma onde eu acabei de terminar de escrever o nosso blog anual:"
+ echo "" 
+ echo "https://jnamaral.github.io/end-of-year-letter/2019/fim-de-2019.html"
  echo ""
- echo "http://www.cs.ualberta.ca/~amaral/end-of-year-letter/2019"
- echo ""
- echo "Cheers, joy, and all the best!"
+ echo "Tudo de bom para 2020!"
  echo ""
  echo "		Cheers,"
  echo ""
@@ -26,5 +26,5 @@ for n in `cat $MAILINGLIST` ; do
  echo "    \ O      /   Fax: (780)492-1071"
  echo "     \      /    http://www.cs.ualberta.ca/~amaral"
  echo "       ---- "
- echo "") | Mail -s "End-of-Year Blog" $ADDRESS
+ echo "") | Mail -s "Blog de final de ano" $ADDRESS
  done
