@@ -8,11 +8,11 @@ for n in `cat $MAILINGLIST` ; do
 
 (echo "$NAME:"
  echo ""
- echo "Oi de Oklahoma onde eu acabei de terminar de escrever o nosso blog anual:"
+ echo "Oi deEdmonton:"
  echo "" 
  echo "https://jnamaral.github.io/end-of-year-letter/2019/fim-de-2019.html"
  echo ""
- echo "Tudo de bom para 2020!"
+ echo "Esperando que todos se protejam e aproveitem os momentos mais tranquilos que vivemos."
  echo ""
  echo "		Cheers,"
  echo ""
